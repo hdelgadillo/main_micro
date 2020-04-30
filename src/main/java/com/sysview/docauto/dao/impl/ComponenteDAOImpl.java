@@ -18,7 +18,7 @@ import org.springframework.util.StringUtils;
 
 import com.sysview.docauto.dao.ComponenteDAO;
 import com.sysview.docauto.model.Componente;
-import com.sysview.docauto.model.Usuario;
+//import com.sysview.docauto.model.Usuario;
 
 @Component ("componenteDao")
 public class ComponenteDAOImpl implements ComponenteDAO {
