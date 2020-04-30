@@ -5,7 +5,7 @@
 
     <groupId>com.sysview</groupId>
     <artifactId>ROOT</artifactId>
-  
+    <version></version>
     <packaging>war</packaging>
  
     <parent>
