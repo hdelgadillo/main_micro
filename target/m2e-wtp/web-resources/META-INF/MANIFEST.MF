@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: ROOT
-Implementation-Version: 1.3.3.RELEASE
+Implementation-Version: 0.0.1
 Built-By: Hugo_
 Implementation-Vendor-Id: com.sysview
 Build-Jdk: 1.8.0_241
