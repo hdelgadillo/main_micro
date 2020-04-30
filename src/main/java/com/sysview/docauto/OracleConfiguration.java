@@ -15,7 +15,7 @@ public class OracleConfiguration{
     @Bean(name="dataSource")
     public OracleDataSource dataSource() throws SQLException {
         OracleDataSource dataSource = new OracleDataSource();
-        dataSource.setURL("jdbc:oracle:thin:@//localhost:1521/orcl");
+        dataSource.setURL("jdbc:oracle:thin:@//192.168.1.112:1521/orcl");
         dataSource.setUser("C##_DAPRESENTACIONES12");
         dataSource.setPassword("sysview12");
         return dataSource;
