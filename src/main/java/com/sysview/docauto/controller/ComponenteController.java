@@ -25,7 +25,7 @@ import com.sysview.docauto.model.Componente;
 import com.sysview.docauto.service.ComponenteService;
 
 @Controller
-@RequestMapping("Docauto/cmps")
+@RequestMapping("/cmps")
 public class ComponenteController {
     
     private static final Logger log = LoggerFactory.getLogger(ComponenteController.class);

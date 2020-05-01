@@ -13,7 +13,7 @@ import com.sysview.docauto.model.Filter;
 import com.sysview.docauto.service.FilterService;
 
 @RestController
-@RequestMapping("/Docauto/filterBy")
+@RequestMapping("/filterBy")
 public class FilterController {
 
   @Autowired
