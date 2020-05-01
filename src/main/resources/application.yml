@@ -11,13 +11,8 @@ spring:
     mode: HTML5 # Template mode to be applied to templates. See also StandardTemplateModeHandlers.
   datasource:
     platform: oracle
-<<<<<<< HEAD
     url: "jdbc:oracle:thin:@192.168.1.112:1521:orcl"
     username: C##_DAPRESENTACIONES12
-=======
-    url: "jdbc:oracle:thin:dapresentaciones11/SYSVIEWHELPDESK@localhost:1521:DELL"
-    username: dapresentaciones12
->>>>>>> parent of f780569... 1
     password: sysview12
     driverClassName: "oracle.jdbc.driver.OracleDriver"
     initialize: false
