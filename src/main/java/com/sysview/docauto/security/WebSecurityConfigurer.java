@@ -40,7 +40,7 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
 		 .csrf().disable()
 		 		//Mostrar imagenes sin tener que estar logueado
             .authorizeRequests().antMatchers("/Img/**").permitAll()
-            .antMatchers("/usuarios-micro-service.192.168.42.195.nip.io/**").hasAuthority("ADMIN")
+            .antMatchers("/user/**").hasAuthority("ADMIN")
             .anyRequest().authenticated()
           .and()
         .formLogin()
