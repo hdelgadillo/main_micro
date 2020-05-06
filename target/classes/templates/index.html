@@ -112,9 +112,11 @@ td{
     </button>
 </form>
 		<!-- Admón de Usuarios -->
-<div sec:authorize="hasRole('ADMIN')">
+<sec:authorize access="hasAnyAuthority('ADMIN')">
+<div >
     <a align="left" href="http://usuarios-micro-service.192.168.42.195.nip.io/" class="glyphicon glyphicon-user" role="button" title="Administrar Usuarios"></a>
 </div>
+</sec:authorize>
 <br></br>
 <br></br>
 <h2 style="text-align: center;">Selección del Componente</h2>
