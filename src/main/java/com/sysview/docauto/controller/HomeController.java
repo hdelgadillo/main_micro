@@ -53,6 +53,11 @@ public class HomeController {
     }
     
     
+    @RequestMapping(value= "/user", method = RequestMethod.GET)
+    public String usuario(){
+          return "user";
+    }
+    
     @RequestMapping(value="/menu", method=RequestMethod.GET)
     public String home2(Model model) {
         List<Plataforma> plataformas = plataformaService.getPlataformas();
