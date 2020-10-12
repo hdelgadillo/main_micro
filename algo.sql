@@ -1,0 +1,1 @@
+SELECT A.nombres, A.apellidoP,A.apellidoM,G.calificacion from Alumnos.A,Grupo.G Order By calificacion;
